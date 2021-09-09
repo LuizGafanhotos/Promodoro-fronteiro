@@ -1,0 +1,21 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* AS CORES */
+:root{
+    --fonteBase: 'Roboto', sans-serif;
+    --cor01: #333853;
+    --cor02: #3C4262;
+    --cor03: #219653;
+    --cor04: #F2C94C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    text-align: center;
+}
