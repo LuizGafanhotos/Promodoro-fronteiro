@@ -14,8 +14,84 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--fonteBase);
+    font-weight: 600;
 }
 body{
     margin: auto;
     text-align: center;
+    background-color: var(--cor01);
+}
+
+#cabecalho{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #787fa3;
+}
+.box{
+    background-color: var(--cor02);
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.39);
+}
+.typer{
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+a{
+    color: #787fa3;
+    text-decoration: none;
+    border: none;
+    transition: 0.25s color;
+}
+a:hover{
+    color:#3C4262;
+}
+#trabalho{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #989fc2;
+    font-weight: 900;
+
+}
+#pausa{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #787fa3;
+    font-weight: 900;
+
+}
+#sessoes{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #787fa3;
+    font-weight: 900;
+}
+#continue{
+    border-style: none;
+    background-color: var(--cor02);
+    color: #787fa3;
+    border-radius: 10px;
+    font-size: x-large;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 3px 2px 4px 0px rgba(0, 0, 0, 0.39);
+    transition: 0.25s background-color;
+}
+#continue:hover{
+    cursor: pointer;
+    background-color: #333853;
 }
