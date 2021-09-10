@@ -11,8 +11,6 @@ var par = document.getElementsByTagName("p")
 // }
 
 function bigger_check(){
-    
-
     if (parseInt(number[0].innerHTML) == 25){
         let conv = parseInt(++number[0].innerHTML)
         par[0].innerText = conv
