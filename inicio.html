@@ -4,65 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Inicio - pomodoro</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Promodoro</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div id="cabecalho">
-        <h1>Pomodoro</h1>
-    </div>
-    <div class="container">
-        <section>
-            <div id="trabalho">
-                <div class="botao" id="work">
-                    <a href="#" onclick="bigger_check(0)"><i class="fas fa-arrow-alt-circle-up"></i><br></a>
-                    <a href="#" onclick="diminier_check(0)"><i class="fas fa-arrow-alt-circle-down"></i></a>
-                </div>
-                <div class="hour">
-                    <div class="box">
-                        <p class="big" id="number">25</p>
-                    </div>
-                    <p>Trabalho</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div id="pausa">
-                <div class="botao" id="pause">
-                    <a href="#" onclick="bigger_check(1)"><i class="fas fa-arrow-alt-circle-up"></i><br></a>
-                    <a href="#" onclick="diminier_check(1)"><i class="fas fa-arrow-alt-circle-down"></i></a>
-                </div>
-                <div class="hour">
-                    <div class="box">
-                        <p class="big" id="number2">5</p>
-                    </div>
-                    <p>Pausa</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div id="sessoes">
-                <div class="botao" id="sect">
-                    <a href="#" onclick="bigger_check(2)"><i class="fas fa-arrow-alt-circle-up"></i><br></a>
-                    <a href="#" onclick="diminier_check(2)"><i class="fas fa-arrow-alt-circle-down"></i></a>
-                </div>
-                <div class="hour">
-                    <div class="box">
-                        <p class="big" id="number3">3</p>
-                    </div>
-                    <p>Sessões</p>
-                </div>
-            </div>
-        </section>
-    </div>
-    <button id="continue">Continuar</button>
-    <script src="scripts/api.js"></script>
-    <script> </script>
+    <h1>Pomodoro</h1>
+    <section>
+        <aside>
+            <button id="up-work"><i class="fa-solid fa-circle-arrow-up"></i></button>
+            <button id="down-work"><i class="fa-solid fa-circle-arrow-down"></i></button>
+        </aside>
+        <input id="traba" type="number" value="0" disabled>
+        <label for="traba">Trabalho</label> <!--Comi o cu de quem tá lendo kkk-->
+    </section>
+    <section>
+        <aside>
+            <button id="up-work"><i class="fa-solid fa-circle-arrow-up"></i></button>
+            <button id="down-work"><i class="fa-solid fa-circle-arrow-down"></i></button>
+        </aside>
+        <input id="pause" type="number" value="0" disabled>
+        <label for="pause">Pausa</label>
+    </section>
+    <section>
+        <aside>
+            <button id="up-work"><i class="fa-solid fa-circle-arrow-up"></i></button>
+            <button id="down-work"><i class="fa-solid fa-circle-arrow-down"></i></button>
+        </aside>
+        <input id="session" type="number" value="0" disabled>
+        <label for="session">Pausa</label>
+    </section>
 </body>
 </html>
-
-
 
 
 <!-- Pomodoro
