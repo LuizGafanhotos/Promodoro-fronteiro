@@ -16,6 +16,15 @@
     box-sizing: border-box;
 }
 body{
+    background-color: var(--cor01);
     margin: auto;
     text-align: center;
+}
+main {
+    display: flex;
+    gap: 0.1rem;
+    justify-content: center;
+}
+section {
+    display: flex;
 }

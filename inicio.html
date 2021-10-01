@@ -9,54 +9,33 @@
     <title>Promodoro</title>
 </head>
 <body>
-    <div id="cabecalho">
-        <h1>Pomodoro</h1>
-    </div>
-    <div class="container">
+    <h1>Pomodoro</h1>
+    <main>
         <section>
-            <div id="trabalho">
-                <div class="botao" id="work">
-                    <i class="fas fa-arrow-alt-circle-up"></i>
-                    <i class="fas fa-arrow-alt-circle-down"></i>
-                </div>
-                <div class="hour">
-                    <div class="box">
-                        <p class="big">25</p>
-                    </div>
-                    <p>Trabalho</p>
-                </div>
-            </div>
+            <aside>
+                <button id="up_work"><i class="fas fa-arrow-alt-circle-up"></i></button>
+                <button id="down_work"><i class="fas fa-arrow-alt-circle-down"></i></button>
+            </aside>
+            <input type="number" disabled value="0">
+            <legend>Trabalho</legend>
         </section>
         <section>
-            <div id="pausa">
-                <div class="botao" id="pause">
-                    <i class="fas fa-arrow-alt-circle-up"></i>
-                    <i class="fas fa-arrow-alt-circle-down"></i>
-                </div>
-                <div class="hour">
-                    <div class="box">
-                        <p class="big">25</p>
-                    </div>
-                    <p>Pausa</p>
-                </div>
-            </div>
+            <aside>
+                <button id="up_work"><i class="fas fa-arrow-alt-circle-up"></i></button>
+                <button id="down_work"><i class="fas fa-arrow-alt-circle-down"></i></button>
+            </aside>
+            <input type="number" disabled value="0">
+            <legend>Pause</legend>
         </section>
         <section>
-            <div id="sessoes">
-                <div class="botao" id="sect">
-                    <i class="fas fa-arrow-alt-circle-up"></i>
-                    <i class="fas fa-arrow-alt-circle-down"></i>
-                </div>
-                <div class="hour">
-                    <div class="box">
-                        <p class="big">3</p>
-                    </div>
-                    <p>Sessões</p>
-                </div>
-            </div>
+            <aside>
+                <button id="up_work"><i class="fas fa-arrow-alt-circle-up"></i></button>
+                <button id="down_work"><i class="fas fa-arrow-alt-circle-down"></i></button>
+            </aside>
+            <input type="number" disabled value="0">
+            <legend>Sessões</legend>
         </section>
-    </div>
-    <script src="scripts/api.js"></script>
+    </main>
 </body>
 </html>
 
