@@ -10,33 +10,34 @@
 </head>
 <body>
     <h1>Pomodoro</h1>
-    <section>
-        <aside>
-            <button id="up-work" class="button"><i class="fa-solid fa-circle-arrow-up"></i></button>
-            <button id="down-work" class="button"><i class="fa-solid fa-circle-arrow-down"></i></button>
-        </aside>
-        <input id="traba" type="number" value="0" disabled>
-        <label for="traba">Trabalho</label> <!--Comi o cu de quem tá lendo kkk-->
-    </section>
-    <section>
-        <aside>
-            <button id="up-pause" class="button"><i class="fa-solid fa-circle-arrow-up"></i></button>
-            <button id="down-pause" class="button"><i class="fa-solid fa-circle-arrow-down"></i></button>
-        </aside>
-        <input id="pause" type="number" value="0" disabled>
-        <label for="pause">Pausa</label>
-    </section>
-    <section>
-        <aside>
-            <button id="up-session" class="button"><i class="fa-solid fa-circle-arrow-up"></i></button>
-            <button id="down-session" class="button"><i class="fa-solid fa-circle-arrow-down"></i></button>
-        </aside>
-        <input id="session" type="number" value="0" disabled>
-        <label for="session">Pausa</label>
-    </section>
-    <a href="pomodoro.html">Continuar</a>
-    
-    <script src="scripts/pomo.js"></script>
+    <main>
+        <section>
+            <aside>
+                <button id="up_work"><i class="fas fa-arrow-alt-circle-up"></i></button>
+                <button id="down_work"><i class="fas fa-arrow-alt-circle-down"></i></button>
+            </aside>
+            <input type="number" disabled value="0">
+            <legend>Trabalho</legend>
+        </section>
+        <section>
+            <aside>
+                <button id="up_work"><i class="fas fa-arrow-alt-circle-up"></i></button>
+                <button id="down_work"><i class="fas fa-arrow-alt-circle-down"></i></button>
+            </aside>
+            <input type="number" disabled value="0">
+            <legend>Pause</legend>
+        </section>
+        <section>
+            <aside>
+                <button id="up_work"><i class="fas fa-arrow-alt-circle-up"></i></button>
+                <button id="down_work"><i class="fas fa-arrow-alt-circle-down"></i></button>
+            </aside>
+            <input type="number" disabled value="0">
+            <legend>Sessões</legend>
+        </section>
+
+        <div id="youregay"><a href="pomodoro.html">Continuar</a></div>
+    </main>
     <script src="scripts/api.js"></script>
 </body>
 </html>
