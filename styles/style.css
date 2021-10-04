@@ -28,7 +28,6 @@ body {
     color: white;
     min-height: 100vh;
     width: 100%;
-    margin: 0;
 }
 
 main {
@@ -36,6 +35,7 @@ main {
     gap: 2.4rem;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 18%;
 }
 
 section {
@@ -111,5 +111,5 @@ button {
     position: absolute; 
     display: flex;
     align-items: center;
-    bottom: 0px;
+    bottom: 132px;
 }
