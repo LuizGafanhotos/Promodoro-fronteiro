@@ -11,9 +11,9 @@ if (localStorage.getItem("timer")){
 }
 
 document.addEventListener("click", ({ target })=>{
-    if (target.id === "up_trabalho") {
+    if (target.id === "up_work") {
         inputs[0].value = Number(inputs[0].value) + 1;
-      } else if (target.id === "down_trabalho") {
+      } else if (target.id === "down_work") {
         inputs[0].value = Number(inputs[0].value) - 1;
       } else if (target.id === "down_pause") {
         inputs[1].value = Number(inputs[1].value) - 1;
